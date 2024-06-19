@@ -1,22 +1,22 @@
 # ------- Branding Related Config ------- #
 - name: INSTALLATION_NAME
-  value: 'Chatwoot'
+  value: 'ViChat'
 - name: LOGO_THUMBNAIL
-  value: '/brand-assets/logo_thumbnail.svg'
+  value: '/brand-assets/favico.png'
 - name: LOGO
-  value: '/brand-assets/logo.svg'
+  value: '/brand-assets/logo.png'
 - name: LOGO_DARK
-  value: '/brand-assets/logo_dark.svg'
+  value: '/brand-assets/logo_dark.png'
 - name: BRAND_URL
-  value: 'https://www.chatwoot.com'
+  value: 'https://vitechgroup.vn'
 - name: WIDGET_BRAND_URL
-  value: 'https://www.chatwoot.com'
+  value: 'https://vitechgroup.vn'
 - name: BRAND_NAME
-  value: 'Chatwoot'
+  value: 'ViChat'
 - name: TERMS_URL
-  value: 'https://www.chatwoot.com/terms-of-service'
+  value: 'https://vitechgroup.vn'
 - name: PRIVACY_URL
-  value: 'https://www.chatwoot.com/privacy-policy'
+  value: 'https://vitechgroup.vn'
 - name: DISPLAY_MANIFEST
   value: true
 # ------- End of Branding Related Config ------- #

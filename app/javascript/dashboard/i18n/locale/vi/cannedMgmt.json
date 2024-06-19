@@ -1,75 +1,75 @@
 {
   "CANNED_MGMT": {
-    "HEADER": "Thư mẫu phẩn hồi",
-    "HEADER_BTN_TXT": "Add canned response",
-    "LOADING": "Fetching canned responses...",
+    "HEADER": "Trả lời soạn trước",
+    "HEADER_BTN_TXT": "Thêm trả lời soạn trước",
+    "LOADING": "Đang tìm nạp trả lời soạn trước..",
     "SEARCH_404": "Không có kết quả nào phù hợp.",
-    "SIDEBAR_TXT": "<p><b>Canned Responses</b> </p><p> Canned Responses are pre-written reply templates that help you quickly respond to a conversation. To insert a canned response during a chat, agents can type a short code preceded by a '/' character. </p><p> You can manage your canned responses from this page or create new ones using the \"Add canned response\" button.</p><p>Open the <a target=\"_blank\" href=\"https://www.chatwoot.com/hc/chatwoot-user-guide-cloud-version/articles/1677501325-how-to-create-saved-reply-templates-with-canned-responses\">Canned Responses handbook</a> in another tab for a helping hand.</p><p>Also, check out the all-new <a href=\"https://www.chatwoot.com/tools/canned-responses-library\" target=\"_blank\">Canned Responses Library</a>.</p>",
+    "SIDEBAR_TXT": "<p><b>Trả lời soạn trước</b> </p><p> Câu trả lời soạn trước là các mẫu câu trả lời được viết sẵn giúp bạn nhanh chóng trả lời cuộc trò chuyện. Để chèn một câu trả lời soạn trước trong cuộc trò chuyện, nhân viên CSKH có thể nhập một mã ngắn sau ký tự '/'. </p><p> Bạn có thể quản lý các câu trả lời soạn trước của mình từ trang này hoặc tạo các câu trả lời mới bằng cách sử dụng nút \"Thêm trả lời soạn trước\".</p><p>Truy cập <a target=\"_blank\" href=\"https://www.chatwoot.com/hc/chatwoot-user-guide-cloud-version/articles/1677501325-how-to-create-saved-reply-templates-with-canned-responses\">Sổ tau câu trả lời soạn trước</a> trong tab mới để xem thêm chi tiết.</p><p>Ngoài ra, hãy xem <a href=\"https://www.chatwoot.com/tools/canned-responses-library\" target=\"_blank\">Thư viện câu trả lời soạn trước</a>.</p> hoàn toàn mới",
     "LIST": {
       "404": "Không có câu trả lời soạn trước nào có sẵn trong tài khoản này.",
-      "TITLE": "Quản lý thư mẫu phẩn hồi",
-      "DESC": "Canned Responses are predefined reply templates which can be used to quickly send out replies to conversations.",
+      "TITLE": "Quản lý câu trả lời soạn trước",
+      "DESC": "Câu trả lời soạn trước là các mẫu câu trả lời được xác định trước có thể được sử dụng để gửi nhanh câu trả lời cho các cuộc hội thoại.",
       "TABLE_HEADER": [
-        "Short code",
+        "Mã ngắn",
         "Nội dung",
         "Hành động"
       ]
     },
     "ADD": {
-      "TITLE": "Add canned response",
-      "DESC": "Canned Responses are predefined reply templates which can be used to quickly send out replies to conversations.",
+      "TITLE": "Thêm trả lời soạn trước",
+      "DESC": "Câu trả lời soạn trước là các mẫu câu trả lời được xác định trước có thể được sử dụng để gửi nhanh câu trả lời cho các cuộc hội thoại.",
       "CANCEL_BUTTON_TEXT": "Huỷ",
       "FORM": {
         "SHORT_CODE": {
-          "LABEL": "Short code",
-          "PLACEHOLDER": "Please enter a short code.",
-          "ERROR": "Short Code is required."
+          "LABEL": "Mã ngắn",
+          "PLACEHOLDER": "Vui lòng đặt mã ngắn.",
+          "ERROR": "Mã ngắn là bắt buộc."
         },
         "CONTENT": {
           "LABEL": "Tin nhắn",
-          "PLACEHOLDER": "Please write the message you want to save as a template to use later.",
-          "ERROR": "Message is required."
+          "PLACEHOLDER": "Hãy viết tin nhắn bạn muốn soạn trước để sử dụng nhanh trong các cuộc hội thoại.",
+          "ERROR": "Tin nhắn là bắt buộc."
         },
         "SUBMIT": "Gửi"
       },
       "API": {
-        "SUCCESS_MESSAGE": "Canned response added successfully.",
-        "ERROR_MESSAGE": "Could not connect to Woot server. Please try again."
+        "SUCCESS_MESSAGE": "Trả lời soạn trước được thêm thành công.",
+        "ERROR_MESSAGE": "Không thể thêm trả lời soạn trước. Vui lòng thử lại."
       }
     },
     "EDIT": {
-      "TITLE": "Edit canned response",
+      "TITLE": "Chỉnh sửa trả lời soạn trước",
       "CANCEL_BUTTON_TEXT": "Huỷ",
       "FORM": {
         "SHORT_CODE": {
-          "LABEL": "Short code",
-          "PLACEHOLDER": "Please enter a shortcode.",
-          "ERROR": "Short code is required."
+          "LABEL": "Mã ngắn",
+          "PLACEHOLDER": "Vui lòng đặt mã ngắn.",
+          "ERROR": "Mã ngắn là bắt buộc."
         },
         "CONTENT": {
           "LABEL": "Tin nhắn",
-          "PLACEHOLDER": "Please write the message you want to save as a template to use later.",
-          "ERROR": "Thông điệp bắt buộc có."
+          "PLACEHOLDER": "Hãy viết tin nhắn bạn muốn soạn trước để sử dụng nhanh trong các cuộc hội thoại.",
+          "ERROR": "Tin nhắn là bắt buộc."
         },
         "SUBMIT": "Gửi"
       },
       "BUTTON_TEXT": "Chỉnh sửa",
       "API": {
-        "SUCCESS_MESSAGE": "Canned response is updated successfully.",
-        "ERROR_MESSAGE": "Could not connect to Woot server. Please try again."
+        "SUCCESS_MESSAGE": "Trả lời soạn trước được chỉnh sửa thành công.",
+        "ERROR_MESSAGE": "Không thể chỉnh sửa trả lời soạn trước. Vui lòng thử lại"
       }
     },
     "DELETE": {
       "BUTTON_TEXT": "Xoá",
       "API": {
-        "SUCCESS_MESSAGE": "Canned response deleted successfully.",
-        "ERROR_MESSAGE": "Could not connect to Woot server. Please try again."
+        "SUCCESS_MESSAGE": "Trả lời soạn trước đã được xóa thành công.",
+        "ERROR_MESSAGE": "Không thể xóa trả lời soạn trước. Vui lòng thử lại."
       },
       "CONFIRM": {
         "TITLE": "Xác nhận xoá",
         "MESSAGE": "Bạn có chắc muốn xoá? ",
-        "YES": "Yes, delete ",
-        "NO": "No, keep "
+        "YES": "Có, xóa ",
+        "NO": "Không, giữ "
       }
     }
   }

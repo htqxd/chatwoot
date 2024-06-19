@@ -2,8 +2,8 @@
   "GENERAL_SETTINGS": {
     "TITLE": "Cài đặt tài khoản",
     "SUBMIT": "Cập nhật cài đặt",
-    "BACK": "Trờ về",
-    "DISMISS": "Dismiss",
+    "BACK": "Trở về",
+    "DISMISS": "Bỏ qua",
     "UPDATE": {
       "ERROR": "Không thể cập nhật cài đặt, hãy thử lại!",
       "SUCCESS": "Đã cập nhật thành công cài đặt tài khoản"
@@ -25,7 +25,7 @@
       },
       "LANGUAGE": {
         "LABEL": "Ngôn ngữ",
-        "PLACEHOLDER": "Tên tài khoản của bạn",
+        "PLACEHOLDER": "Ngôn ngữ của bạn",
         "ERROR": ""
       },
       "DOMAIN": {
@@ -48,11 +48,11 @@
         "CUSTOM_EMAIL_DOMAIN_ENABLED": "Bạn có thể nhận email trong miền tùy chỉnh của mình ngay bây giờ."
       }
     },
-    "UPDATE_CHATWOOT": "Đã có bản cập nhật %{latestChatwootVersion} cho Chatwoot. Vui lòng cập nhật phiên bản của bạn.",
+    "UPDATE_CHATWOOT": "Đã có bản cập nhật %{latestChatwootVersion} cho ViChat. Vui lòng cập nhật phiên bản của bạn.",
     "LEARN_MORE": "Tìm hiểu thêm",
-    "PAYMENT_PENDING": "Your payment is pending. Please update your payment information to continue using Chatwoot",
-    "LIMITS_UPGRADE": "Your account has exceeded the usage limits, please upgrade your plan to continue using Chatwoot",
-    "OPEN_BILLING": "Open billing"
+    "PAYMENT_PENDING": "Khoản thanh toán của bạn đang chờ xử lý. Vui lòng cập nhật thông tin thanh toán của bạn để tiếp tục sử dụng ViChat",
+    "LIMITS_UPGRADE": "Tài khoản của bạn đã vượt quá giới hạn sử dụng, vui lòng nâng cấp gói của bạn để tiếp tục sử dụng ViChat",
+    "OPEN_BILLING": "Mở thanh toán"
   },
   "FORMS": {
     "MULTISELECT": {
@@ -69,8 +69,8 @@
     "UNREAD_NOTIFICATION": {
       "TITLE": "Thông báo tin chưa đọc",
       "ALL_NOTIFICATIONS": "Xem tất cả thông báo",
-      "LOADING_UNREAD_MESSAGE": "Đang tải thông báo tin chưa đọc...",
-      "EMPTY_MESSAGE": "Bạn không có thông báo tin chưa đọc"
+      "LOADING_UNREAD_MESSAGE": "Đang tải thông báo chưa đọc...",
+      "EMPTY_MESSAGE": "Bạn không có thông báo chưa đọc"
     },
     "LIST": {
       "LOADING_MESSAGE": "Đang tải thông báo...",
@@ -88,14 +88,16 @@
       "assigned_conversation_new_message": "Tin nhắn mới",
       "participating_conversation_new_message": "Tin nhắn mới",
       "conversation_mention": "Nhắc đến",
-      "sla_missed_first_response": "SLA Missed",
-      "sla_missed_next_response": "SLA Missed",
-      "sla_missed_resolution": "SLA Missed"
+      "sla_missed_first_response": "SLA bị bỏ lỡ",
+      "sla_missed_next_response": "SLA bị bỏ lỡ",
+      "sla_missed_resolution": "SLA bị bỏ lỡ"
     }
   },
   "NETWORK": {
     "NOTIFICATION": {
-      "OFFLINE": "Không Trực Tuyến"
+      "OFFLINE": "Không Trực Tuyến",
+      "RECONNECTING": "Đang kết nối lại...",
+      "RECONNECT_SUCCESS": "Đã kết nối"
     },
     "BUTTON": {
       "REFRESH": "Làm mới"
@@ -107,17 +109,17 @@
       "GENERAL": "Chung",
       "REPORTS": "Báo cáo",
       "CONVERSATION": "Hội thoại",
-      "BULK_ACTIONS": "Bulk Actions",
+      "BULK_ACTIONS": "Hành động hàng loạt",
       "CHANGE_ASSIGNEE": "Thay đổi người được phân công",
-      "CHANGE_PRIORITY": "Change Priority",
+      "CHANGE_PRIORITY": "Thay đổi mức độ ưu tiên",
       "CHANGE_TEAM": "Thay đổi nhóm",
       "SNOOZE_CONVERSATION": "Tạm dừng \bhội thoại",
       "ADD_LABEL": "Thêm nhãn vào hội thoại",
       "REMOVE_LABEL": "Xoá nhãn khỏi hội thoại",
       "SETTINGS": "Cài đặt",
-      "AI_ASSIST": "AI Assist",
-      "APPEARANCE": "Appearance",
-      "SNOOZE_NOTIFICATION": "Snooze Notification"
+      "AI_ASSIST": "Hỗ trợ AI",
+      "APPEARANCE": "Giao diện",
+      "SNOOZE_NOTIFICATION": "Thông báo lại"
     },
     "COMMANDS": {
       "GO_TO_CONVERSATION_DASHBOARD": "Đi tới Trang tổng quan hội thoại",
@@ -139,8 +141,8 @@
       "GO_TO_NOTIFICATIONS": "Đi đến Thông báo",
       "ADD_LABELS_TO_CONVERSATION": "Thêm nhãn vào hội thoại",
       "ASSIGN_AN_AGENT": "Gán cho tổng đài viên",
-      "AI_ASSIST": "AI Assist",
-      "ASSIGN_PRIORITY": "Assign priority",
+      "AI_ASSIST": "Hỗ trợ AI",
+      "ASSIGN_PRIORITY": "Chỉ định mức độ ưu tiên",
       "ASSIGN_A_TEAM": "Phân công một nhóm",
       "MUTE_CONVERSATION": "Tắt tiếng hội thoại",
       "UNMUTE_CONVERSATION": "Bật tiếng hội thoại",
@@ -152,14 +154,14 @@
       "UNTIL_NEXT_REPLY": "Cho đến phản hồi kế tiếp",
       "UNTIL_NEXT_WEEK": "Cho đến tuần sau",
       "UNTIL_TOMORROW": "Cho đến ngày mai",
-      "UNTIL_NEXT_MONTH": "Until next month",
-      "AN_HOUR_FROM_NOW": "Until an hour from now",
-      "CUSTOM": "Custom...",
-      "CHANGE_APPEARANCE": "Change Appearance",
-      "LIGHT_MODE": "Light",
-      "DARK_MODE": "Dark",
-      "SYSTEM_MODE": "System",
-      "SNOOZE_NOTIFICATION": "Snooze Notification"
+      "UNTIL_NEXT_MONTH": "Cho đến tháng sau",
+      "AN_HOUR_FROM_NOW": "Một giờ trước",
+      "UNTIL_CUSTOM_TIME": "Cho đến khi...",
+      "CHANGE_APPEARANCE": "Thay đổi giao diện",
+      "LIGHT_MODE": "Sáng",
+      "DARK_MODE": "Tối",
+      "SYSTEM_MODE": "Hệ thống",
+      "SNOOZE_NOTIFICATION": "Thông báo lại"
     }
   },
   "DASHBOARD_APPS": {
@@ -167,6 +169,6 @@
   },
   "COMMON": {
     "OR": "Or",
-    "CLICK_HERE": "click vào đây"
+    "CLICK_HERE": "bấm vào đây"
   }
 }

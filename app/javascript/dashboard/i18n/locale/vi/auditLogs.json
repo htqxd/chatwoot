@@ -1,71 +1,71 @@
 {
   "AUDIT_LOGS": {
-    "HEADER": "Audit Logs",
-    "HEADER_BTN_TXT": "Add Audit Logs",
-    "LOADING": "Fetching Audit Logs",
+    "HEADER": "Nhật ký",
+    "HEADER_BTN_TXT": "Thêm nhật ký",
+    "LOADING": "Đang tìm nạp nhật ký...",
     "SEARCH_404": "Không có kết quả nào được tìm thấy",
-    "SIDEBAR_TXT": "<p><b>Audit Logs</b> </p><p> Audit Logs are trails for events and actions in a Chatwoot System. </p>",
+    "SIDEBAR_TXT": "<p><b>Nhật ký</b> </p><p> Nhật ký là dấu vết lưu lại cho các sự kiện và hành động trong hệ thống ViChat. </p>",
     "LIST": {
-      "404": "There are no Audit Logs available in this account.",
-      "TITLE": "Manage Audit Logs",
-      "DESC": "Audit Logs are trails for events and actions in a Chatwoot System.",
+      "404": "Không có nhật ký nào trong tài khoản này.",
+      "TITLE": "Quản lý nhật ký",
+      "DESC": "Nhật ký là dấu vết lưu lại cho các sự kiện và hành động trong hệ thống ViChat.",
       "TABLE_HEADER": [
-        "User",
-        "Action",
+        "Người dùng",
+        "Hành Động",
         "Địa chỉ IP"
       ]
     },
     "API": {
-      "SUCCESS_MESSAGE": "AuditLogs retrieved successfully",
-      "ERROR_MESSAGE": "Không thể kết nối với Máy chủ Woot, Vui lòng thử lại sau"
+      "SUCCESS_MESSAGE": "Truy xuất nhật ký thành công",
+      "ERROR_MESSAGE": "Không thể kết nối với Máy chủ ViChat, Vui lòng thử lại sau"
     },
-    "DEFAULT_USER": "System",
+    "DEFAULT_USER": "Hệ thống",
     "AUTOMATION_RULE": {
-      "ADD": "%{agentName} created a new automation rule (#%{id})",
-      "EDIT": "%{agentName} updated an automation rule (#%{id})",
-      "DELETE": "%{agentName} deleted an automation rule (#%{id})"
+      "ADD": "%{agentName} đã tạo một quy tắc tự động hóa mới (#%{id})",
+      "EDIT": "%{agentName} đã cập nhật quy tắc tự động hóa (#%{id})",
+      "DELETE": "%{agentName} đã xóa quy tắc tự động hóa (#%{id})"
     },
     "ACCOUNT_USER": {
-      "ADD": "%{agentName} invited %{invitee} to the account as an %{role}",
+      "ADD": "%{agentName} đã mời tài khoản %{invitee} với vai trò là %{role}",
       "EDIT": {
-        "SELF": "%{agentName} changed their %{attributes} to %{values}",
-        "OTHER": "%{agentName} changed %{attributes} of %{user} to %{values}"
+        "SELF": "%{agentName} đã thay đổi %{attributes} của họ thành %{values}",
+        "OTHER": "%{agentName} đã thay đổi %{attributes} của %{user} thành %{values}"
       }
     },
     "INBOX": {
-      "ADD": "%{agentName} created a new inbox (#%{id})",
-      "EDIT": "%{agentName} updated an inbox (#%{id})",
-      "DELETE": "%{agentName} deleted an inbox (#%{id})"
+      "ADD": "%{agentName} đã tạo một hộp thư đến mới (#%{id})",
+      "EDIT": "%{agentName} đã cập nhật hộp thư đên (#%{id})",
+      "DELETE": "%{agentName} đã xóa hộp thư đến (#%{id})"
     },
     "WEBHOOK": {
-      "ADD": "%{agentName} created a new webhook (#%{id})",
-      "EDIT": "%{agentName} updated a webhook (#%{id})",
-      "DELETE": "%{agentName} deleted a webhook (#%{id})"
+      "ADD": "%{agentName} đã tạo một webhook mới (#%{id})",
+      "EDIT": "%{agentName} đã cập nhật webhook (#%{id})",
+      "DELETE": "%{agentName} đã xóa webhook (#%{id})"
     },
     "USER_ACTION": {
-      "SIGN_IN": "%{agentName} signed in",
-      "SIGN_OUT": "%{agentName} signed out"
+      "SIGN_IN": "%{agentName} đã đăng nhập",
+      "SIGN_OUT": "%{agentName} đã đăng xuất"
     },
     "TEAM": {
-      "ADD": "%{agentName} created a new team (#%{id})",
-      "EDIT": "%{agentName} updated a team (#%{id})",
-      "DELETE": "%{agentName} deleted a team (#%{id})"
+      "ADD": "%{agentName} đã tạo một nhóm mới (#%{id})",
+      "EDIT": "%{agentName} đã cập nhật nhóm (#%{id})",
+      "DELETE": "%{agentName} đã xóa nhớm (#%{id})"
     },
     "MACRO": {
-      "ADD": "%{agentName} created a new macro (#%{id})",
-      "EDIT": "%{agentName} updated a macro (#%{id})",
-      "DELETE": "%{agentName} deleted a macro (#%{id})"
+      "ADD": "%{agentName} đã tạo một macro mới (#%{id})",
+      "EDIT": "%{agentName} đã cập nhật macro (#%{id})",
+      "DELETE": "%{agentName} đã xóa macro (#%{id})"
     },
     "INBOX_MEMBER": {
-      "ADD": "%{agentName} added %{user} to the inbox(#%{inbox_id})",
-      "REMOVE": "%{agentName} removed %{user} from the inbox(#%{inbox_id})"
+      "ADD": "%{agentName} đã thêm %{user} tới hộp thư đến (#%{inbox_id})",
+      "REMOVE": "%{agentName} đã xóa %{user} khỏi hộp thư đến (#%{inbox_id})"
     },
     "TEAM_MEMBER": {
-      "ADD": "%{agentName} added %{user} to the team(#%{team_id})",
-      "REMOVE": "%{agentName} removed %{user} from the team(#%{team_id})"
+      "ADD": "%{agentName} đã thêm %{user} vào nhóm (#%{team_id})",
+      "REMOVE": "%{agentName} đã xóa %{user} khỏi nhóm (#%{team_id})"
     },
     "ACCOUNT": {
-      "EDIT": "%{agentName} updated the account configuration (#%{id})"
+      "EDIT": "%{agentName} đã cập nhật cấu hình tài khoản (#%{id})"
     }
   }
 }

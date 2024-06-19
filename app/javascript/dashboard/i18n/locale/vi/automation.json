@@ -3,7 +3,7 @@
     "HEADER": "Tự động hoá",
     "HEADER_BTN_TXT": "Thêm luật Tự động hoá",
     "LOADING": "Đang lấy luật tự động hoá",
-    "SIDEBAR_TXT": "<p><b>Luật tự động hóa</b> <p>Tự động hóa có thể thay thế và tự động hóa các quy trình hiện có mà cần thao tác thủ công. Bạn có thể làm nhiều việc với tự động hóa, bao gồm thêm nhãn và gán cuộc trò chuyện cho người đại diện tốt nhất. Vì vậy, nhóm tập trung vào những gì họ làm tốt nhất và dành ít thời gian hơn cho các công việc thủ công.</p>",
+    "SIDEBAR_TXT": "<p><b>Luật tự động hóa</b> <p>Tự động hóa có thể thay thế và tự động hóa các quy trình hiện có mà cần thao tác thủ công. Bạn có thể làm nhiều việc với tự động hóa, bao gồm thêm nhãn và gán cuộc trò chuyện cho nhân viên CSKH tốt nhất. Vì vậy, nhóm tập trung vào những gì họ làm tốt nhất và dành ít thời gian hơn cho các công việc thủ công.</p>",
     "ADD": {
       "TITLE": "Thêm Quy tắc Tự động hoá",
       "SUBMIT": "Tạo",
@@ -12,7 +12,7 @@
         "NAME": {
           "LABEL": "Tên luật",
           "PLACEHOLDER": "Nhập tên luật",
-          "ERROR": "Cần phải có tên"
+          "ERROR": "Cần phải có tên luật"
         },
         "DESC": {
           "LABEL": "Mô tả",
@@ -31,8 +31,8 @@
           "LABEL": "Hành động"
         }
       },
-      "CONDITION_BUTTON_LABEL": "Thêm Điều kiện",
-      "ACTION_BUTTON_LABEL": "Thêm Hành động",
+      "CONDITION_BUTTON_LABEL": "Thêm điều kiện",
+      "ACTION_BUTTON_LABEL": "Thêm hành động",
       "API": {
         "SUCCESS_MESSAGE": "Luật tự động hoá thêm thành công",
         "ERROR_MESSAGE": "Không thể tạo luật tự động hoá, Vui lòng thử lại sau"

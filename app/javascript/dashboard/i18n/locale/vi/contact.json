@@ -39,10 +39,10 @@
     },
     "MERGE_CONTACT": "Hợp nhất liên hệ",
     "CONTACT_ACTIONS": "Hành động với liên hệ",
-    "MUTE_CONTACT": "Block Contact",
-    "UNMUTE_CONTACT": "Unblock Contact",
-    "MUTED_SUCCESS": "This contact is blocked successfully. You will not be notified of any future conversations.",
-    "UNMUTED_SUCCESS": "This contact is unblocked successfully.",
+    "MUTE_CONTACT": "Chặn liên hệ",
+    "UNMUTE_CONTACT": "Mở chặn liên hệ",
+    "MUTED_SUCCESS": "Liên hệ này đã bị chặn thành công. Bạn sẽ không được thông báo về bất kỳ cuộc trò chuyện nào liên quan đến liên hệ này trong tương lai.",
+    "UNMUTED_SUCCESS": "Liên hệ này được mở chặn thành công.",
     "SEND_TRANSCRIPT": "Gửi bản ghi",
     "EDIT_LABEL": "Chỉnh sửa",
     "SIDEBAR_SECTIONS": {
@@ -72,21 +72,21 @@
       "SUBMIT": "Nhập",
       "CANCEL": "Huỷ"
     },
-    "SUCCESS_MESSAGE": "You will be notified via email when the import is complete.",
+    "SUCCESS_MESSAGE": "Bạn sẽ được thông báo qua email khi quá trình hoàn tất.",
     "ERROR_MESSAGE": "Đã có lỗi, vui lòng thử lại"
   },
   "EXPORT_CONTACTS": {
-    "BUTTON_LABEL": "Export",
-    "TITLE": "Export Contacts",
-    "DESC": "Export contacts to a CSV file.",
-    "SUCCESS_MESSAGE": "Export is in progress, You will be notified via email when export file is ready to dowanlod.",
+    "BUTTON_LABEL": "Xuất",
+    "TITLE": "Xuất liên hệ",
+    "DESC": "Xuất liên hệ ra file CSV.",
+    "SUCCESS_MESSAGE": "Tiến trình xuất đang được thực thi, Bạn sẽ được thông báo qua email khi file sẵn sàng để tải.",
     "ERROR_MESSAGE": "Đã có lỗi, vui lòng thử lại",
     "CONFIRM": {
-      "TITLE": "Export Contacts",
-      "MESSAGE": "Are you sure you want to export all contacts?",
-      "FILTERED_MESSAGE": "Are you sure you want to export all the filtered contacts?",
-      "YES": "Yes, Export",
-      "NO": "No, Cancel"
+      "TITLE": "Xuất liên hệ",
+      "MESSAGE": "Bạn có chắc chắn muốn xuất tất cả liên hệ?",
+      "FILTERED_MESSAGE": "Bạn có chắc chắn muốn xuất tất cả liên hệ đã lọc không?",
+      "YES": "Có, Xuất",
+      "NO": "Không, Hủy bỏ"
     }
   },
   "DELETE_NOTE": {
@@ -117,7 +117,7 @@
       "SUBMIT": "Gửi",
       "CANCEL": "Huỷ",
       "AVATAR": {
-        "LABEL": "Avatar của liên hệ"
+        "LABEL": "Ảnh đại diện của liên hệ"
       },
       "NAME": {
         "PLACEHOLDER": "Nhập tên đầy đủ của liên hệ",
@@ -136,9 +136,9 @@
       "PHONE_NUMBER": {
         "PLACEHOLDER": "Nhập số điện thoại của liên hệ",
         "LABEL": "Số điện thoại",
-        "HELP": "Phone number should be of E.164 format eg: +1415555555 [+][country code][area code][local phone number]. You can select the dial code from the dropdown.",
+        "HELP": "Số điện thoại phải có định dạng theo chuẩn E.164, ví dụ: +84 91 484 868 [+][mã quốc gia][mã khu vực][số thuê bao]. Bạn có thể chọn mã quay số từ danh sách thả xuống.",
         "ERROR": "Số điện thoại nên rỗng hoặc thuộc định dạng E.164",
-        "DIAL_CODE_ERROR": "Please select a dial code from the list",
+        "DIAL_CODE_ERROR": "Vui lòng chọn mã quốc gia từ danh sách",
         "DUPLICATE": "Số điện thoại này đang được dùng cho một liên hệ khác."
       },
       "LOCATION": {
@@ -150,14 +150,14 @@
         "LABEL": "Tên công ty"
       },
       "COUNTRY": {
-        "PLACEHOLDER": "Nhập tên thành phố",
-        "LABEL": "Tên Nước",
+        "PLACEHOLDER": "Nhập tên quốc gia",
+        "LABEL": "Tên quốc gia",
         "SELECT_PLACEHOLDER": "Chọn",
         "REMOVE": "Xoá",
-        "SELECT_COUNTRY": "Select Country"
+        "SELECT_COUNTRY": "Chọn quốc gia"
       },
       "CITY": {
-        "PLACEHOLDER": "Enter the city name",
+        "PLACEHOLDER": "Nhập tên thành phố",
         "LABEL": "Thành phố"
       },
       "SOCIAL_PROFILES": {
@@ -181,8 +181,8 @@
     },
     "DELETE_AVATAR": {
       "API": {
-        "SUCCESS_MESSAGE": "Hình đại diện liên hệ đã được xóa thành công",
-        "ERROR_MESSAGE": "Không thể xóa hình đại diện liên hệ. Vui lòng thử lại sau."
+        "SUCCESS_MESSAGE": "Ảnh đại diện liên hệ đã được xóa thành công",
+        "ERROR_MESSAGE": "Không thể xóa ảnh đại diện liên hệ. Vui lòng thử lại sau."
       }
     },
     "SUCCESS_MESSAGE": "Liên hệ được lưu thành công",
@@ -198,8 +198,8 @@
         "LABEL": "Đến"
       },
       "INBOX": {
-        "LABEL": "Via Inbox",
-        "PLACEHOLDER": "Choose source inbox",
+        "LABEL": "Qua hộp thư đến",
+        "PLACEHOLDER": "Chọn nguồn hộp thư đến",
         "ERROR": "Chọn kênh"
       },
       "SUBJECT": {
@@ -244,7 +244,7 @@
         "CREATED_AT": "Tạo vào lúc",
         "COUNTRY": "Quốc gia",
         "CITY": "Tỉnh / Thành phố",
-        "SOCIAL_PROFILES": "Hồ sơ xã hội",
+        "SOCIAL_PROFILES": "Hồ sơ mạng xã hội",
         "COMPANY": "Công ty",
         "EMAIL_ADDRESS": "Email"
       },
@@ -298,8 +298,8 @@
     "BUTTON": "Thêm thuộc tính tùy chỉnh",
     "NOT_AVAILABLE": "Không có thuộc tính tuỳ chỉnh nào có sẵn cho liên hệ này.",
     "COPY_SUCCESSFUL": "Đã sao chép mã thành công",
-    "SHOW_MORE": "Show all attributes",
-    "SHOW_LESS": "Show less attributes",
+    "SHOW_MORE": "Hiển thị tất cả thuộc tính",
+    "SHOW_LESS": "Thu gọn thuộc tính",
     "ACTIONS": {
       "COPY": "Sao chép thuộc tính",
       "DELETE": "Xoá thuộc tính",
@@ -350,7 +350,7 @@
     "VALIDATIONS": {
       "REQUIRED": "Giá trị hợp lệ bắt buộc có",
       "INVALID_URL": "URL không hợp lệ",
-      "INVALID_INPUT": "Invalid Input"
+      "INVALID_INPUT": "Giá trị nhập không hợp lệ"
     }
   },
   "MERGE_CONTACTS": {
@@ -374,7 +374,7 @@
       "ERROR": "ERROR_MESSAGE"
     },
     "FORM": {
-      "SUBMIT": " Hợp nhất các liên hệ",
+      "SUBMIT": "Hợp nhất các liên hệ",
       "CANCEL": "Huỷ",
       "CHILD_CONTACT": {
         "ERROR": "Chọn một liên hệ con để gộp"
